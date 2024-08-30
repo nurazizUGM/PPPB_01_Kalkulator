@@ -123,7 +123,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun calculate() {
-        if (operator == "=") {
+        if (operator == "=" || input1 == "" || input2 == "") {
             return
         }
         when (operator) {
